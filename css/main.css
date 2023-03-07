@@ -122,6 +122,12 @@ header a{
 
 
 
+
+
+
+
+
+
 /* Comincia MAIN */
 
 
@@ -132,6 +138,19 @@ header a{
     min-height: 300px;
     background-color: white;
 }
+
+
+.wave-1hkxOo{
+    transform: rotate(180deg);
+    color: white;
+}
+
+
+.wave-1hkxOo2{
+    transform: rotate(180deg);
+    color: #f6f6f6;
+}
+
 
 
 .flexcontainer1{
@@ -179,7 +198,7 @@ header a{
 
 
 .boxmainfinale{
-    min-height: 750px;
+    min-height: 820px;
     background-color:#f6f6f6;
 }
 
@@ -193,7 +212,7 @@ header a{
 .rettverde{
     width: 900px;
     min-height: 600px; 
-    border: 1px dashed black;
+    
     margin: auto;
     text-align: center;
 }
@@ -223,6 +242,11 @@ header a{
 
 
 
+
+
+
+
+
 /* Comincia Footer */
 
 
@@ -242,49 +266,69 @@ header a{
     
 }
 
-
 .boxfooter1{
     width: 300px;
     min-height: 310px;
-    background-color: #f08080;
-    border: 1px dashed black;
 }
+
+.imgita{
+    width: 6%;
+    margin-right: 3px;
+
+}
+
+div > i{
+    margin-right: 10px;
+    color: white;
+
+}
+
+div > h2{
+    color: #748ce0;
+}
+
+footer p{
+    color: white;
+}
+
+
+ ol>li{
+    list-style-type: none;
+    color: white;
+ }
+
+
+ .titolo{
+    color:#748ce0;
+ }
 
 .boxfooter2{
     width: 150px;
-    min-height:  310px; 
-    background-color: #20b2aa;
-    border: 1px dashed white;
+    min-height:  310px;         
 }
 .boxfooter3{
     width: 150px;
-    min-height:  310px; 
-    background-color: #20b2aa;
-    border: 1px dashed white;
+    min-height:  310px;  
 }
 .boxfooter4{
     width: 150px;
-    min-height:  310px; 
-    background-color: #20b2aa;
-    border: 1px dashed white;
+    min-height:  310px;  
 }
 .boxfooter5{
     width: 150px;
-    min-height:  310px; 
-    background-color: #20b2aa;
-    border: 1px dashed white;
+    min-height:  310px;
 }
 
 
 .boxfooter6{
-    height: 60px;
+    height: 150px;
     background-color: #23272a;
 }
 
 .boxsecondario{
     width: 900px;
     min-height: 40px;
-    background-color: #7fffda;
+    background-color:#23272a ;
     margin: auto;
     
 }
@@ -305,20 +349,15 @@ header a{
     
 }
 
-
-.logo{
-    min-width: 20px;
-    background-color: #ffb6c1;
-    margin-top: 11px;
-    border: 1px dashed black;
-
+.bottonereg{
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
 }
 
 
-.bottone{
-    min-width: 30px;
-    background-color: #ffb6c1;
-    margin-top: 11px;
-    border: 1px dashed black;
-
+hr{
+    border-color: #8ea1e1;
 }
